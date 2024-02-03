@@ -1,0 +1,94 @@
+/* For tablets */
+@media (min-width: 600px) {
+  .header-background {
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  .main-title {
+    font-size: 45px;
+  }
+  .sub-header {
+    font-size: 28px;
+    padding-bottom: 35px;
+    line-height: 30px;
+  }
+  .container {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+  footer {
+    position: fixed;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header-background {
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  .main-title {
+    font-size: 56px;
+  }
+  .sub-header {
+    font-size: 28px;
+    padding-bottom: 35px;
+    line-height: 30px;
+  }
+  .container {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  .text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+}
+
+/* For desktops */
+@media (min-width: 1500px) {
+  .header-background {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .main-title {
+    font-size: 78px;
+  }
+  .container {
+    padding-top: 50px;
+    padding-bottom: 170px;
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .footer-text {
+    font-size: 15px;
+  }
+  .accordion {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .wrapper {
+    padding-bottom: 150px;
+  }
+}

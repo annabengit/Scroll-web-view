@@ -1,0 +1,101 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>FAQ • Scroll</title>
+      <link rel="icon" type="image/x-icon" href="../images/small-logo.svg" />
+      <link rel="stylesheet" href="../css/reset.css" />
+      <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="../css/media.css" />
+    </head>
+
+    <body>
+      <div class="header-background">
+        <header>
+          <h1 class="main-title">FAQ</h1>
+        </header>
+      </div>
+
+      <div class="wrapper">
+        <div class="accordion">
+          <div class="contentBx">
+            <div class="label question">
+              Why was I charged 5 GEL from the card?
+            </div>
+            <div class="content answer">
+              <p>
+                At the beginning of the ride, 5 GEL is charged from the card,
+                which will be returned to you instantly, this transaction is
+                carried out to verify the authenticity of the tied account.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label question">
+              What should I do when my phone is down and I can not end the ride
+              in the app?
+            </div>
+            <div class="content answer">
+              <p>
+                When you charge your phone, write us to the support section in
+                the app and you will get back the overpaid amount.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label question">
+              What should I do when the scooter is faulty?
+            </div>
+            <div class="content answer">
+              <p>
+                All scooters are checked before leaving the warehouse, however,
+                there are cases when certain defects are encountered due to
+                improper use. If you notice that the scooter is faulty, please
+                report it and our operating team can correct the defect.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label question">
+              Why does the speed of the scooter decrease?
+            </div>
+            <div class="content answer">
+              <p>
+                In order to move safely, there are zones in the application
+                where the speed of the scooter is limited, for example: in
+                crowded places such as parks and squares you can not scroll at
+                high speed, because it can endanger others and you. This is why,
+                when entering such areas, for your own safety and the safety of
+                others, the scrolling speed decreases.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label question">Where can I buy a helmet?</div>
+            <div class="content answer">
+              <p>You can find Closca helmets at our online shop.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const accordions = document.getElementsByClassName("contentBx");
+
+        for (let i = 0; i < accordions.length; i++) {
+          accordions[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+
+            // Close other accordions
+            for (let j = 0; j < accordions.length; j++) {
+              if (j !== i) {
+                accordions[j].classList.remove("active");
+              }
+            }
+          });
+        }
+      </script>
+    </body>
+  </html>
+</DOCTYPE>
