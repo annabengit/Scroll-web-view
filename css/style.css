@@ -106,7 +106,7 @@
     text-align: start;
   }
   
-  /* Styles of FAQ page */
+  /* Styles of FAQ page */ */
   /* .wrapper {
     display: flex;
     justify-content: center;
@@ -178,13 +178,13 @@ font-size: 20px;
     display: flex;
     align-items: center;
   }
- */ */
+ */
 
-  .wrapper {
+  /* .wrapper {
     display: flex;
     justify-content: center;
     padding: 50px 0;
-  }
+  } */
   /.accordion {
     max-width: 800px;
   }
