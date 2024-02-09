@@ -6,24 +6,26 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #0084e9;
+  background-color: #ffffff;
 }
 
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .faq-container {
-  /* width: 45%; */
-  min-width: 500px;
-  /* position: absolute;
-  transform: translate(-50%, -50%); */
-  top: 50%;
-  left: 50%;
+  width: 100%;
 }
 
 .wrapper {
   background-color: #ffffff;
-  margin-bottom: 20px;
   padding: 15px 40px;
-  border-radius: 5px;
-  box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  border-radius: var(--sys-radius-16, 16px);
+  border: 0.05px solid #ebebeb;
+
+  margin: 16px;
 }
 
 .toggle,
@@ -37,13 +39,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
-  color: #111130;
-  font-weight: 500;
+
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px 0;
+  padding: 16px 0;
+
+  color: var(--fg-theming-inverse-highest, #000);
+
+  font-family: "PP Mori";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
 }
 
 .faq-content {
@@ -54,4 +63,18 @@ body {
   height: 0;
   overflow: hidden;
   transition: all 1s;
+
+  color: var(--fg-highest, #000);
+
+  font-family: "PP Mori";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.fas {
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+  font-weight: 501;
 }
