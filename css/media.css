@@ -103,3 +103,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: 365px) {
+  .main-title {
+    font-size: 28px;
+  }
+}
