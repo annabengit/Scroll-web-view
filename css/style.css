@@ -94,3 +94,7 @@ p {
   padding-right: 4px;
   text-align: start;
 }
+
+html {
+  scroll-behavior: smooth;
+}
