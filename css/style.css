@@ -34,12 +34,11 @@
 
 .main-title {
   color: var(--fg-highest, #000);
-  /* text/title/bold/5 */
   font-family: "PP Radio Grotesk";
   font-size: 36px;
   font-style: normal;
   font-weight: 900;
-  line-height: 48px; /* 133.333% */
+  line-height: 48px;
   text-transform: uppercase;
 }
 
@@ -50,17 +49,12 @@
 }
 .container {
   width: auto;
-  /* padding-top: 40px;
-    padding-bottom: 50px;
-    padding-left: 18px;
-    padding-right: 18px; */
   padding: 16px;
 }
 
 .sub-header {
   font-size: 20px;
   font-weight: 900;
-  /* font-family: "Hind Vadodara", sans-serif; */
   font-family: PP Radio Grotesk;
   padding-bottom: 20px;
   color: #000000;
@@ -70,14 +64,11 @@
 
 .text {
   color: var(--fg-highest, #000);
-
-  /* text/body/regular/basic/6 */
   font-family: "PP Mori";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  /* padding-right: 4px; */
+  line-height: 24px;
 }
 .content-text {
   padding-bottom: 15px;
@@ -101,152 +92,4 @@ p {
   padding-top: 4px;
   padding-right: 4px;
   text-align: start;
-}
-
-/* Styles of FAQ page */
-*/
-  /* .wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-  }
-  .accordion {
-    max-width: 800px;
-  }
-  
-  .accordion .contentBx {
-    position: relative;
-    margin: 10px 20px;
-  }
-  
-  .accordion .contentBx .label {
-    position: relative;
-    padding: 10px;
-    background: grey;
-    color: black;
-    cursor: pointer;
-    /* border-top: #e6e6e6 1px solid; */
-    /* border: 2px solid black;
-    border-radius: 7px;
-  }
-  
-  .accordion .contentBx .label::before {
-    content: "+";
-  position: absolute;
-top: 50%;
-right: 20px;
-transform: translate(-50%);
-font-size: 20px;
-  }
-  
-  .accordion .contentBx.active .label::before {
-    content: "-";
-  }
-
-  
-  .accordion .contentBx .content {
-    position: relative;
-    padding: 10px;
-    height: 0;
-    background: #fff;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
-  }
-  
-  .accordion .contentBx.active .content {
-    height: auto;
-    padding: 10px;
-  }
-  
-  .question {
-    color: #333333;
-    font-size: 18px;
-    font-family: "Hind Vadodara", sans-serif;
-  }
-  
-  .answer {
-    color: #777777;
-    font-size: 18px;
-    font-family: "Hind Vadodara", sans-serif;
-  }
-  
-  .label {
-    display: flex;
-    align-items: center;
-  }
- */
-
-  /* .wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-  } */
-  .accordion {
-  max-width: 800px;
-}
-
-.accordion .contentBx {
-  position: relative;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.accordion .contentBx .label {
-  position: relative;
-  padding: 10px;
-  background: none;
-  color: black;
-  cursor: pointer;
-  border-top: #e6e6e6 1px solid;
-  height: 50px;
-}
-
-.accordion .contentBx .label::before {
-  content: "";
-  background-image: url("../images/arrow.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  padding-right: 10px;
-}
-
-.accordion .contentBx.active .label::before {
-  transform: rotate(180deg);
-  transform-origin: 6px 6px;
-}
-
-.accordion .contentBx .content {
-  position: relative;
-  background: #fff;
-  height: 0;
-  overflow: hidden;
-  transition: 0.5s;
-  overflow-y: auto;
-  border-top: #f3f2f2 1px solid;
-}
-
-.accordion .contentBx.active .content {
-  height: auto;
-  padding: 10px;
-}
-
-.question {
-  color: #333333;
-  font-size: 18px;
-  font-family: "Hind Vadodara", sans-serif;
-}
-
-.answer {
-  color: #777777;
-  font-size: 18px;
-  font-family: "Hind Vadodara", sans-serif;
-}
-
-.label {
-  display: flex;
-  align-items: center;
 }
